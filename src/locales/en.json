@@ -22,6 +22,11 @@
     "mare_strongSide": "A Mare will have an increased chance to attack in the dark.",
     "mare_weakSide": "Turning the lights ON around the Mare will lower it’s chance to attack.",
 
+    "oni_name": "Oni",
+    "oni_description": "Oni’s are a cousin to the Demon and possess extreme strength. There have been rumors that they become more active around their prey.",
+    "oni_strongSide": "Oni’s are more active when people are nearby and have been seen moving objects at great speed.",
+    "oni_weakSide": "Being more active will make the Oni easier to find and identify.",
+
     "_name": "",
     "_description": "",
     "_strongSide": "",
