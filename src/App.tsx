@@ -6,9 +6,7 @@ import { getGhostsByLang } from './entities/ghost';
 type Props = RouteComponentProps<{ preferredLang?: string }>;
 export function App({ preferredLang }: Props) {
   let lang = useAppLocalization(preferredLang);
-  console.log(lang);
-
-  let ghosts = useMemo(() => getGhostsByLang('en'), [])
+  let ghosts = useMemo(() => getGhostsByLang(lang), [lang])
 
   useEffect(() => {
     console.log('ghosts', ghosts)

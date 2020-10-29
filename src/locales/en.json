@@ -1,3 +1,8 @@
 {
-    "title": "Phasmophobia helper"
+    "title": "Phasmophobia helper",
+
+    "banshee_name": "Banshee",
+    "banshee_description": "A Banshee is a natural hunter and will attack anything. It has been known to stalk it’s prey one at a time until making it’s kill.",
+    "banshee_strongSide": "A Banshee will only target one person at a time.",
+    "banshee_weakSide": "Banshees fear the Crucifix Cross and will be less aggressive when near one."
 }
