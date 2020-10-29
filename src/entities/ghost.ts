@@ -5,14 +5,14 @@ import { getStringByKey } from '../utils';
 export type Ghost = 'banshee' | 'demon' | 'jinn' | 'mare'
 
 export interface GhostTranslationData {
-  key: string;
+  key: Ghost;
   name: string;
   description: string;
   strongSide: string;
   weakSide: string;
 }
 
-export function getGhostByKey(key: string, lang: Lang): GhostTranslationData {
+export function getGhostByKey(key: Ghost, lang: Lang): GhostTranslationData {
   return {
     key,
     name: getStringByKey(`${key}_name`, lang),
