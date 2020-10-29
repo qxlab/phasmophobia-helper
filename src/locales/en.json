@@ -32,6 +32,11 @@
     "phantom_strongSide": "Looking at a Phantom will considerably drop your sanity.",
     "phantom_weakSide": "Taking a photo of the Phantom will make it temporarily disappear.",
 
+    "poltergeist_name": "Poltergeist",
+    "poltergeist_description": "One of the most famous Ghosts, a Poltergeist, also known as a noisy ghost that can manipulate objects around it to spread fear into it’s victims.",
+    "poltergeist_strongSide": "A Poltergeist can throw huge amounts of objects at once.",
+    "poltergeist_weakSide": "A Poltergeist is almost ineffective in an empty room.",
+
     "_name": "",
     "_description": "",
     "_strongSide": "",
