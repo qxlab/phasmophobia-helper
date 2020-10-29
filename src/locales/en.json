@@ -57,8 +57,8 @@
     "wraith_strongSide": "Wraiths almost never touch the ground meaning it can’t be tracked by footsteps.",
     "wraith_weakSide": "Wraiths have a toxic reaction to Salt.",
 
-    "_name": "",
-    "_description": "",
-    "_strongSide": "",
-    "_weakSide": ""
+    "yurei_name": "Yurei",
+    "yurei_description": "A Yurei is a Ghost that has returned to the physical world, usually for the purpose of revenge or pure hatred.",
+    "yurei_strongSide": "Yurei’s have been known to have a stronger effect on peoples sanity.",
+    "yurei_weakSide": "Smudging the Yurei’s room will cause it to not wander around the location for a long time."
 }

@@ -14,6 +14,7 @@ export type Ghost =
 | 'shade'
 | 'spirit'
 | 'wraith'
+| 'yurei'
 
 export interface GhostTranslationData {
   key: Ghost;
