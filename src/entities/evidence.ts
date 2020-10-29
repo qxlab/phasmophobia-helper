@@ -1,11 +1,13 @@
 import { Lang } from '../hooks';
 import { EVIDENCES } from '../data';
 import { getStringByKey } from '../utils';
+import { Ghost } from '.';
 
 export interface Evidence {
   key: string;
-  ghosts: string[];
+  ghosts: Array<Ghost>;
 }
+
 export interface EvidenceTranslationData {
   key: string;
   name: string;

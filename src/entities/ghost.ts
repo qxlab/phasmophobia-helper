@@ -2,9 +2,7 @@ import { Lang } from '../hooks';
 import { GHOSTS } from '../data';
 import { getStringByKey } from '../utils';
 
-export interface Ghost {
-  key: string;
-}
+export type Ghost = 'banshee' | 'demon' | 'jinn' | 'mare'
 
 export interface GhostTranslationData {
   key: string;
@@ -14,7 +12,7 @@ export interface GhostTranslationData {
   weakSide: string;
 }
 
-export function getGhostByMeta({ key }: Ghost, lang: Lang): GhostTranslationData {
+export function getGhostByKey(key: string, lang: Lang): GhostTranslationData {
   return {
     key,
     name: getStringByKey(`${key}_name`, lang),
@@ -25,5 +23,5 @@ export function getGhostByMeta({ key }: Ghost, lang: Lang): GhostTranslationData
 }
 
 export function getGhostsByLang(lang: Lang) {
-  return GHOSTS.map((ghost) => getGhostByMeta(ghost, lang))
+  return GHOSTS.map((key) => getGhostByKey(key, lang))
 }
