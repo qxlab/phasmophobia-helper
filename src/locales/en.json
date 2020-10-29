@@ -37,6 +37,11 @@
     "poltergeist_strongSide": "A Poltergeist can throw huge amounts of objects at once.",
     "poltergeist_weakSide": "A Poltergeist is almost ineffective in an empty room.",
 
+    "revenant_name": "Revenant",
+    "revenant_description": "They are slow but violent ghosts that will attack everyone indiscriminately. They also travel at a greater speed like Jinn while hunting.",
+    "revenant_strongSide": "Travels faster while hunting.",
+    "revenant_weakSide": "If you are hidden from the Revenant, their speed drops, and they travel slowly.",
+
     "_name": "",
     "_description": "",
     "_strongSide": "",
