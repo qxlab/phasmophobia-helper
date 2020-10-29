@@ -1,11 +1,14 @@
-export function detectBrowserLanguage(supportedLanguages: string[]) {
-  let defaultLang = supportedLanguages[0];
-  if (Array.isArray(navigator.languages)) {
-    return navigator.languages.find(it => supportedLanguages.some(x => it.includes(x))) ?? defaultLang;
+interface Props {
+  supportedLanguages: string[];
+  preferredLang?: string;
+}
 
-  } else if (navigator.language) {
-    return supportedLanguages.find(it => navigator.language.includes(it)) ?? defaultLang;
-  } else {
-    return defaultLang;
-  }
+let detectFromPreferredLang = (supportedLanguages: string[], preferredLang?: string) => preferredLang ? supportedLanguages.find(it => preferredLang.includes(it)) : undefined;
+
+let detectFromNavigatorLanguages = (supportedLanguages: string[]) => Array.isArray(navigator.languages) ? supportedLanguages.find(x => navigator.languages.some(it => it.includes(x))) : undefined;
+
+let detectFromNavigatorLanguage = (supportedLanguages: string[]) => supportedLanguages.find(it => navigator.language.includes(it));
+
+export function detectBrowserLanguage({ supportedLanguages, preferredLang }: Props) {
+  return detectFromPreferredLang(supportedLanguages, preferredLang) ?? detectFromNavigatorLanguages(supportedLanguages) ?? detectFromNavigatorLanguage(supportedLanguages);
 }

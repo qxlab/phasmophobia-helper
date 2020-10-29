@@ -5,7 +5,8 @@ import { App } from './App';
 export function Router() {
   return (
     <RRouter>
-      <App path="/:lang" />
+      <App path="/" />
+      <App path="/:preferredLang" />
     </RRouter>
   );
 }
