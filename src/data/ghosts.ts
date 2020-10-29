@@ -10,5 +10,6 @@ export const GHOSTS: Array<Ghost> = [
   'poltergeist',
   'revenant',
   'shade',
-  'spirit'
+  'spirit',
+  'wraith',
 ];

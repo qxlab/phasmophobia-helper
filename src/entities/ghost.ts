@@ -13,6 +13,7 @@ export type Ghost =
 | 'revenant'
 | 'shade'
 | 'spirit'
+| 'wraith'
 
 export interface GhostTranslationData {
   key: Ghost;
