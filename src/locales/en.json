@@ -12,6 +12,11 @@
     "demon_strongSide": "Demons will attack more often than any other Ghost.",
     "demon_weakSide": "Asking a Demon successful questions on the Ouija Board won’t lower the users sanity.",
 
+    "jinn_name": "Jinn",
+    "jinn_description": "A Jinn is a territorial Ghost that will attack when threatened. It has also been known to be able to travel at significant speed.",
+    "jinn_strongSide": "A Jinn will travel at a a faster speed if it’s victim is far away.",
+    "jinn_weakSide": "Turning off the locations power source will prevent the Jinn from using it’s ability.",
+
     "_name": "",
     "_description": "",
     "_strongSide": "",

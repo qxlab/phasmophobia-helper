@@ -6,5 +6,8 @@ export const GHOST_METAS: Array<GhostMeta> = [
     },
     {
         key: 'demon',
+    },
+    {
+        key: 'jinn',
     }
 ]
