@@ -4,5 +4,16 @@
     "banshee_name": "Banshee",
     "banshee_description": "A Banshee is a natural hunter and will attack anything. It has been known to stalk it’s prey one at a time until making it’s kill.",
     "banshee_strongSide": "A Banshee will only target one person at a time.",
-    "banshee_weakSide": "Banshees fear the Crucifix Cross and will be less aggressive when near one."
+    "banshee_weakSide": "Banshees fear the Crucifix Cross and will be less aggressive when near one.",
+
+
+    "demon_name": "Demon",
+    "demon_description": "A Demon is one of the worst Ghosts you can encounter. It has been known to attack without a reason.",
+    "demon_strongSide": "Demons will attack more often than any other Ghost.",
+    "demon_weakSide": "Asking a Demon successful questions on the Ouija Board won’t lower the users sanity.",
+
+    "_name": "",
+    "_description": "",
+    "_strongSide": "",
+    "_weakSide": ""
 }
