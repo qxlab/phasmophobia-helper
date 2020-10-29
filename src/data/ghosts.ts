@@ -1,16 +1,16 @@
-import { GhostMeta } from "../entities/ghost";
+import { Ghost } from '../entities';
 
-export const GHOST_METAS: Array<GhostMeta> = [
-    {
-      key: 'banshee',
-    },
-    {
-      key: 'demon',
-    },
-    {
-      key: 'jinn',
-    },
-    {
-      key: 'mare',
-    }
+export const GHOSTS: Array<Ghost> = [
+  {
+    key: 'banshee',
+  },
+  {
+    key: 'demon',
+  },
+  {
+    key: 'jinn',
+  },
+  {
+    key: 'mare',
+  }
 ]
