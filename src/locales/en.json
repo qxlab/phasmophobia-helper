@@ -1,64 +1,87 @@
 {
     "title": "Phasmophobia helper",
 
-    "banshee_name": "Banshee",
-    "banshee_description": "A Banshee is a natural hunter and will attack anything. It has been known to stalk it’s prey one at a time until making it’s kill.",
-    "banshee_strongSide": "A Banshee will only target one person at a time.",
-    "banshee_weakSide": "Banshees fear the Crucifix Cross and will be less aggressive when near one.",
+    "banshee": {
+      "name": "Banshee",
+      "description": "A Banshee is a natural hunter and will attack anything. It has been known to stalk it’s prey one at a time until making it’s kill.",
+      "strongSide": "A Banshee will only target one person at a time.",
+      "weakSide": "Banshees fear the Crucifix Cross and will be less aggressive when near one."
+    },
 
+    "demon": {
+      "name": "Demon",
+      "description": "A Demon is one of the worst Ghosts you can encounter. It has been known to attack without a reason.",
+      "strongSide": "Demons will attack more often than any other Ghost.",
+      "weakSide": "Asking a Demon successful questions on the Ouija Board won’t lower the users sanity."
+    },
 
-    "demon_name": "Demon",
-    "demon_description": "A Demon is one of the worst Ghosts you can encounter. It has been known to attack without a reason.",
-    "demon_strongSide": "Demons will attack more often than any other Ghost.",
-    "demon_weakSide": "Asking a Demon successful questions on the Ouija Board won’t lower the users sanity.",
+    "jinn": {
+      "name": "Jinn",
+      "description": "A Jinn is a territorial Ghost that will attack when threatened. It has also been known to be able to travel at significant speed.",
+      "strongSide": "A Jinn will travel at a a faster speed if it’s victim is far away.",
+      "weakSide": "Turning off the locations power source will prevent the Jinn from using it’s ability."
+    },
 
-    "jinn_name": "Jinn",
-    "jinn_description": "A Jinn is a territorial Ghost that will attack when threatened. It has also been known to be able to travel at significant speed.",
-    "jinn_strongSide": "A Jinn will travel at a a faster speed if it’s victim is far away.",
-    "jinn_weakSide": "Turning off the locations power source will prevent the Jinn from using it’s ability.",
+    "mare": {
+      "name": "Mare",
+      "description": "A Mare is the source of all nightmares, making it most powerful in the darkness.",
+      "strongSide": "A Mare will have an increased chance to attack in the dark.",
+      "weakSide": "Turning the lights ON around the Mare will lower it’s chance to attack."
+    },
 
-    "mare_name": "Mare",
-    "mare_description": "A Mare is the source of all nightmares, making it most powerful in the darkness.",
-    "mare_strongSide": "A Mare will have an increased chance to attack in the dark.",
-    "mare_weakSide": "Turning the lights ON around the Mare will lower it’s chance to attack.",
+    "oni": {
+      "name": "Oni",
+      "description": "Oni’s are a cousin to the Demon and possess extreme strength. There have been rumors that they become more active around their prey.",
+      "strongSide": "Oni’s are more active when people are nearby and have been seen moving objects at great speed.",
+      "weakSide": "Being more active will make the Oni easier to find and identify."
+    },
 
-    "oni_name": "Oni",
-    "oni_description": "Oni’s are a cousin to the Demon and possess extreme strength. There have been rumors that they become more active around their prey.",
-    "oni_strongSide": "Oni’s are more active when people are nearby and have been seen moving objects at great speed.",
-    "oni_weakSide": "Being more active will make the Oni easier to find and identify.",
+    "phantom": {
+      "name": "Phantom",
+      "description": "A Phantom is a Ghost that can possess the living, most commonly summoned by a Ouija Board. It also induces fear into those around it.",
+      "strongSide": "Looking at a Phantom will considerably drop your sanity.",
+      "weakSide": "Taking a photo of the Phantom will make it temporarily disappear."
+    },
 
-    "phantom_name": "Phantom",
-    "phantom_description": "A Phantom is a Ghost that can possess the living, most commonly summoned by a Ouija Board. It also induces fear into those around it.",
-    "phantom_strongSide": "Looking at a Phantom will considerably drop your sanity.",
-    "phantom_weakSide": "Taking a photo of the Phantom will make it temporarily disappear.",
+    "poltergeist": {
+      "name": "Poltergeist",
+      "description": "One of the most famous Ghosts, a Poltergeist, also known as a noisy ghost that can manipulate objects around it to spread fear into it’s victims.",
+      "strongSide": "A Poltergeist can throw huge amounts of objects at once.",
+      "weakSide": "A Poltergeist is almost ineffective in an empty room."
+    },
 
-    "poltergeist_name": "Poltergeist",
-    "poltergeist_description": "One of the most famous Ghosts, a Poltergeist, also known as a noisy ghost that can manipulate objects around it to spread fear into it’s victims.",
-    "poltergeist_strongSide": "A Poltergeist can throw huge amounts of objects at once.",
-    "poltergeist_weakSide": "A Poltergeist is almost ineffective in an empty room.",
+    "revenant": {
+      "name": "Revenant",
+      "description": "They are slow but violent ghosts that will attack everyone indiscriminately. They also travel at a greater speed like Jinn while hunting.",
+      "strongSide": "Travels faster while hunting.",
+      "weakSide": "If you are hidden from the Revenant, their speed drops, and they travel slowly."
+    },
 
-    "revenant_name": "Revenant",
-    "revenant_description": "They are slow but violent ghosts that will attack everyone indiscriminately. They also travel at a greater speed like Jinn while hunting.",
-    "revenant_strongSide": "Travels faster while hunting.",
-    "revenant_weakSide": "If you are hidden from the Revenant, their speed drops, and they travel slowly.",
+    "shade": {
+      "name": "Shade",
+      "description": "A Shade is known to be a Shy Ghost. There is evidence that a Shade will stop all paranormal activity if there are multiple people nearby.",
+      "strongSide": "Being shy means the Ghost will be harder to find.",
+      "weakSide": "The Ghost will not enter hunting mode if there is multiple people nearby."
+    },
 
-    "shade_name": "Shade",
-    "shade_description": "A Shade is known to be a Shy Ghost. There is evidence that a Shade will stop all paranormal activity if there are multiple people nearby.",
-    "shade_strongSide": "Being shy means the Ghost will be harder to find.",
-    "shade_weakSide": "The Ghost will not enter hunting mode if there is multiple people nearby.",
+    "spirit": {
+      "name": "Spirit",
+      "description": "A Spirit is the most common Ghost you will come across however it is still very powerful and dangerous. They are usually discovered at one of their hunting grounds after an unexplained death.",
+      "strongSide": "None.",
+      "weakSide": "Using Smudge Sticks on a Spirit will stop it attacking for a long period of time."
+    },
 
-    "spirit_name": "Spirit",
-    "spirit_description": "A Spirit is the most common Ghost you will come across however it is still very powerful and dangerous. They are usually discovered at one of their hunting grounds after an unexplained death.",
-    "spirit_strongSide": "None.",
-    "spirit_weakSide": "Using Smudge Sticks on a Spirit will stop it attacking for a long period of time.",
+    "wraith": {
+      "name": "Wraith",
+      "description": "A Wraith is one of the most dangerous Ghosts you will find. It is also the only known Ghost that has the ability of flight and has sometimes been known to travel through walls.",
+      "strongSide": "Wraiths almost never touch the ground meaning it can’t be tracked by footsteps.",
+      "weakSide": "Wraiths have a toxic reaction to Salt."
+    },
 
-    "wraith_name": "Wraith",
-    "wraith_description": "A Wraith is one of the most dangerous Ghosts you will find. It is also the only known Ghost that has the ability of flight and has sometimes been known to travel through walls.",
-    "wraith_strongSide": "Wraiths almost never touch the ground meaning it can’t be tracked by footsteps.",
-    "wraith_weakSide": "Wraiths have a toxic reaction to Salt.",
-
-    "yurei_name": "Yurei",
-    "yurei_description": "A Yurei is a Ghost that has returned to the physical world, usually for the purpose of revenge or pure hatred.",
-    "yurei_strongSide": "Yurei’s have been known to have a stronger effect on peoples sanity.",
-    "yurei_weakSide": "Smudging the Yurei’s room will cause it to not wander around the location for a long time."
+    "yurei": {
+      "name": "Yurei",
+      "description": "A Yurei is a Ghost that has returned to the physical world, usually for the purpose of revenge or pure hatred.",
+      "strongSide": "Yurei’s have been known to have a stronger effect on peoples sanity.",
+      "weakSide": "Smudging the Yurei’s room will cause it to not wander around the location for a long time."
+    }
 }

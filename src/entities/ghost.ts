@@ -1,6 +1,6 @@
 import { Lang } from '../hooks';
 import { GHOSTS } from '../data';
-import { getStringByKey } from '../utils';
+import { getStringByPath } from '../utils';
 
 export type Ghost =
 | 'banshee'
@@ -27,10 +27,10 @@ export interface GhostTranslationData {
 export function getGhostByKey(key: Ghost, lang: Lang): GhostTranslationData {
   return {
     key,
-    name: getStringByKey(`${key}_name`, lang),
-    description: getStringByKey(`${key}_description`, lang),
-    strongSide: getStringByKey(`${key}_strongSide`, lang),
-    weakSide: getStringByKey(`${key}_weakSide`, lang),
+    name: getStringByPath([key, 'name'], lang),
+    description: getStringByPath([key, 'description'], lang),
+    strongSide: getStringByPath([key, 'strongSide'], lang),
+    weakSide: getStringByPath([key, 'weakSide'], lang),
   }
 }
 

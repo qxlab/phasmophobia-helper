@@ -10,3 +10,7 @@ export const LANGUAGES_MAP = {
 export function getStringByKey(key: string, lang: string) {
     return pathOr(key, [lang, key], LANGUAGES_MAP)
 }
+
+export function getStringByPath(keys: string[], lang: string) {
+  return pathOr('', [lang, ...keys], LANGUAGES_MAP)
+}
