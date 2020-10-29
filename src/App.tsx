@@ -1,8 +1,7 @@
 import React, { useMemo, useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import { useAppLocalization } from './hooks';
-import { getGhostsByLang } from './entities/ghost';
-import { getEvidencesByLang } from './entities';
+import { getGhostsByLang, getEvidencesByLang } from './entities';
 
 type Props = RouteComponentProps<{ preferredLang?: string }>;
 export function App({ preferredLang }: Props) {
