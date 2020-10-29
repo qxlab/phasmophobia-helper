@@ -17,6 +17,11 @@
     "jinn_strongSide": "A Jinn will travel at a a faster speed if it’s victim is far away.",
     "jinn_weakSide": "Turning off the locations power source will prevent the Jinn from using it’s ability.",
 
+    "mare_name": "Mare",
+    "mare_description": "A Mare is the source of all nightmares, making it most powerful in the darkness.",
+    "mare_strongSide": "A Mare will have an increased chance to attack in the dark.",
+    "mare_weakSide": "Turning the lights ON around the Mare will lower it’s chance to attack.",
+
     "_name": "",
     "_description": "",
     "_strongSide": "",

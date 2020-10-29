@@ -2,12 +2,15 @@ import { GhostMeta } from "../entities/ghost";
 
 export const GHOST_METAS: Array<GhostMeta> = [
     {
-        key: 'banshee',
+      key: 'banshee',
     },
     {
-        key: 'demon',
+      key: 'demon',
     },
     {
-        key: 'jinn',
+      key: 'jinn',
+    },
+    {
+      key: 'mare',
     }
 ]
