@@ -2,7 +2,17 @@ import { Lang } from '../hooks';
 import { GHOSTS } from '../data';
 import { getStringByKey } from '../utils';
 
-export type Ghost = 'banshee' | 'demon' | 'jinn' | 'mare' | 'oni' | 'phantom' | 'poltergeist' | 'revenant' | 'shade'
+export type Ghost =
+| 'banshee'
+| 'demon'
+| 'jinn'
+| 'mare'
+| 'oni'
+| 'phantom'
+| 'poltergeist'
+| 'revenant'
+| 'shade'
+| 'spirit'
 
 export interface GhostTranslationData {
   key: Ghost;
