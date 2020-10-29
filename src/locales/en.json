@@ -27,6 +27,11 @@
     "oni_strongSide": "Oni’s are more active when people are nearby and have been seen moving objects at great speed.",
     "oni_weakSide": "Being more active will make the Oni easier to find and identify.",
 
+    "phantom_name": "Phantom",
+    "phantom_description": "A Phantom is a Ghost that can possess the living, most commonly summoned by a Ouija Board. It also induces fear into those around it.",
+    "phantom_strongSide": "Looking at a Phantom will considerably drop your sanity.",
+    "phantom_weakSide": "Taking a photo of the Phantom will make it temporarily disappear.",
+
     "_name": "",
     "_description": "",
     "_strongSide": "",
