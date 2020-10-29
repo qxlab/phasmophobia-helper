@@ -1,6 +1,6 @@
 import { Lang } from '../hooks';
 import { EVIDENCES } from '../data';
-import { getStringByKey } from '../utils';
+import { getStringByPath } from '../utils';
 
 export type Evidence =
   | 'emf'
@@ -18,7 +18,7 @@ export interface EvidenceTranslationData {
 export function getEvidenceByKey(key: Evidence, lang: Lang): EvidenceTranslationData {
   return {
     key,
-    name: getStringByKey(`${key}_name`, lang),
+    name: getStringByPath([key, 'name'], lang),
   }
 }
 

@@ -83,5 +83,29 @@
       "description": "A Yurei is a Ghost that has returned to the physical world, usually for the purpose of revenge or pure hatred.",
       "strongSide": "Yurei’s have been known to have a stronger effect on peoples sanity.",
       "weakSide": "Smudging the Yurei’s room will cause it to not wander around the location for a long time."
+    },
+
+    "emf": {
+      "name": "EMF Level 5"
+    },
+
+    "spiritBox": {
+      "name": "Spirit Box"
+    },
+
+    "freezing": {
+      "name": "Freezing Temperatures"
+    },
+
+    "writing": {
+      "name": "Ghost Writing"
+    },
+
+    "orbs": {
+      "name": "Ghost Orb"
+    },
+
+    "fingerprints": {
+      "name": "Fingerprints"
     }
 }
