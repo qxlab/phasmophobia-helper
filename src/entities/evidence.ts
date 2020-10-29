@@ -1,19 +1,15 @@
 import { Lang } from '../hooks';
 import { EVIDENCES } from '../data';
 import { getStringByKey } from '../utils';
-import { Ghost } from '.';
 
-export interface Evidence {
-  key: string;
-  ghosts: Array<Ghost>;
-}
+export type Evidence = 'emf' | 'spiritBox' | 'freezing' | 'writing' | 'orbs' | 'fingerprints';
 
 export interface EvidenceTranslationData {
   key: string;
   name: string;
 }
 
-export function getEvidenceByMeta({ key }: Evidence, lang: Lang): EvidenceTranslationData {
+export function getEvidenceByMeta(key: Evidence, lang: Lang): EvidenceTranslationData {
   return {
     key,
     name: getStringByKey(`${key}_name`, lang),

@@ -1,8 +1,3 @@
 import { Evidence } from '../entities';
 
-export const EVIDENCES: Array<Evidence> = [
-  {
-    key: 'emf',
-    ghosts: [],
-  }
-]
+export const EVIDENCES: Array<Evidence> = ['emf', 'spiritBox', 'freezing', 'writing', 'orbs', 'fingerprints']
