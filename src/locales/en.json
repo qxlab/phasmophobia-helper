@@ -42,6 +42,11 @@
     "revenant_strongSide": "Travels faster while hunting.",
     "revenant_weakSide": "If you are hidden from the Revenant, their speed drops, and they travel slowly.",
 
+    "shade_name": "Shade",
+    "shade_description": "A Shade is known to be a Shy Ghost. There is evidence that a Shade will stop all paranormal activity if there are multiple people nearby.",
+    "shade_strongSide": "Being shy means the Ghost will be harder to find.",
+    "shade_weakSide": "The Ghost will not enter hunting mode if there is multiple people nearby.",
+
     "_name": "",
     "_description": "",
     "_strongSide": "",
