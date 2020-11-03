@@ -1,6 +1,3 @@
-import { Lang } from '../hooks';
-import { getStringByPath } from '../utils';
-
 export type Evidence =
   | 'emf'
   | 'spiritBox'
@@ -15,17 +12,12 @@ export interface EvidenceTranslationData {
 }
 
 export function getEvidenceTranslationDataByKey(
+  getStringByPath: (...keys: string[]) => string,
   key: Evidence,
-  lang: Lang,
 ): EvidenceTranslationData {
   return {
     key,
-    name: getStringByPath([key, 'name'], lang),
+    name: getStringByPath(key, 'name'),
   };
 }
 
-export function getEvidencesByLang(evidences: Evidence[], lang: Lang) {
-  return evidences.map((evidence) =>
-    getEvidenceTranslationDataByKey(evidence, lang),
-  );
-}

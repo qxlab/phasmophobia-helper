@@ -1,15 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { PropsWithChildren } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { useAppLocalization } from './hooks';
-import { evidenceGhostGraph } from './repositories';
+import { LocalizationProvider } from './Providers';
 
-type Props = RouteComponentProps<{ preferredLang?: string }>;
-export function App({ preferredLang }: Props) {
-  let lang = useAppLocalization(preferredLang);
-
-  useEffect(() => {
-    console.log('evidenceGhostGraph', evidenceGhostGraph);
-  }, []);
-
-  return <div>{lang}</div>;
+type Props = PropsWithChildren<RouteComponentProps<{ preferredLang?: string }>>;
+export function App({ preferredLang, children }: Props) {
+  return (
+    <LocalizationProvider preferredLanguage={preferredLang}>
+      {children}
+    </LocalizationProvider>
+  );
 }
