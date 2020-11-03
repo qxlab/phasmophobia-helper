@@ -1,6 +1,6 @@
-import { Ghost } from '../entities';
+import { Ghost } from '../../entities';
 
-export const GHOSTS: Array<Ghost> = [
+export const ghosts: Array<Ghost> = [
   'banshee',
   'demon',
   'jinn',

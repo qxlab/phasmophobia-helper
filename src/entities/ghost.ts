@@ -1,20 +1,19 @@
 import { Lang } from '../hooks';
-import { GHOSTS } from '../data';
 import { getStringByPath } from '../utils';
 
 export type Ghost =
-| 'banshee'
-| 'demon'
-| 'jinn'
-| 'mare'
-| 'oni'
-| 'phantom'
-| 'poltergeist'
-| 'revenant'
-| 'shade'
-| 'spirit'
-| 'wraith'
-| 'yurei'
+  | 'banshee'
+  | 'demon'
+  | 'jinn'
+  | 'mare'
+  | 'oni'
+  | 'phantom'
+  | 'poltergeist'
+  | 'revenant'
+  | 'shade'
+  | 'spirit'
+  | 'wraith'
+  | 'yurei';
 
 export interface GhostTranslationData {
   key: Ghost;
@@ -31,9 +30,9 @@ export function getGhostByKey(key: Ghost, lang: Lang): GhostTranslationData {
     description: getStringByPath([key, 'description'], lang),
     strongSide: getStringByPath([key, 'strongSide'], lang),
     weakSide: getStringByPath([key, 'weakSide'], lang),
-  }
+  };
 }
 
-export function getGhostsByLang(lang: Lang) {
-  return GHOSTS.map((key) => getGhostByKey(key, lang))
+export function getGhostsByLang(ghosts: Ghost[], lang: Lang) {
+  return ghosts.map((key) => getGhostByKey(key, lang));
 }

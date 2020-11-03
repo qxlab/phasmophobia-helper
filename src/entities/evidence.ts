@@ -1,5 +1,4 @@
 import { Lang } from '../hooks';
-import { EVIDENCES } from '../data';
 import { getStringByPath } from '../utils';
 
 export type Evidence =
@@ -15,13 +14,18 @@ export interface EvidenceTranslationData {
   name: string;
 }
 
-export function getEvidenceByKey(key: Evidence, lang: Lang): EvidenceTranslationData {
+export function getEvidenceTranslationDataByKey(
+  key: Evidence,
+  lang: Lang,
+): EvidenceTranslationData {
   return {
     key,
     name: getStringByPath([key, 'name'], lang),
-  }
+  };
 }
 
-export function getEvidencesByLang(lang: Lang) {
-  return EVIDENCES.map((evidence) => getEvidenceByKey(evidence, lang))
+export function getEvidencesByLang(evidences: Evidence[], lang: Lang) {
+  return evidences.map((evidence) =>
+    getEvidenceTranslationDataByKey(evidence, lang),
+  );
 }

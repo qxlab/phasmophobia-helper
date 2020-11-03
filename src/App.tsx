@@ -1,22 +1,15 @@
-import React, { useMemo, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import { useAppLocalization } from './hooks';
-import { getGhostsByLang, getEvidencesByLang } from './entities';
+import { evidenceGhostGraph } from './repositories';
 
 type Props = RouteComponentProps<{ preferredLang?: string }>;
 export function App({ preferredLang }: Props) {
   let lang = useAppLocalization(preferredLang);
-  let ghosts = useMemo(() => getGhostsByLang(lang), [lang])
-  let evidences = useMemo(() => getEvidencesByLang(lang), [lang])
 
   useEffect(() => {
-    console.log('ghosts', ghosts)
-    console.log('evidences', evidences)
-  }, [ghosts, evidences])
+    console.log('evidenceGhostGraph', evidenceGhostGraph);
+  }, []);
 
-  return (
-    <div>
-      {lang}
-    </div>
-  );
+  return <div>{lang}</div>;
 }

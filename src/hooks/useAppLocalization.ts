@@ -4,11 +4,12 @@ import { detectBrowserLanguage } from '../utils';
 export type Lang = 'en' | 'ru';
 let supportedLanguages: Lang[] = ['ru', 'en'];
 export function useAppLocalization(preferredLang?: string): Lang {
-  let detectedLang = useMemo(() =>
-    detectBrowserLanguage({
-      supportedLanguages,
-      preferredLang,
-    }),
+  let detectedLang = useMemo(
+    () =>
+      detectBrowserLanguage({
+        supportedLanguages,
+        preferredLang,
+      }),
     [preferredLang],
   );
 
