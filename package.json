@@ -29,7 +29,7 @@
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "4.2.0",
-    "immer": "7.0.14",
+    "immer": "8.0.1",
     "immutable": "4.0.0-rc.12",
     "lodash-es": "4.17.15",
     "prettier": "2.1.2",
